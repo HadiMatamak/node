@@ -1,0 +1,10 @@
+version: 1.0
+runtime: nodejs16
+environment:
+  variables:
+    NODE_ENV: production
+build:
+  commands:
+    - npm install
+start:
+  command: npm start
